@@ -1,0 +1,109 @@
+body {
+    background-color: #fff2f8;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    align-content: center;
+    padding-bottom: 10%;
+
+}
+
+h1 {
+    font-family: 'Spicy Rice';
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 400%;
+    color: rgba(255, 99, 64, 1);
+}
+
+h2 {
+    font-family: 'Spicy Rice';
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 300%;
+    color: #2848c0;
+}
+
+p {
+    color: #2848c0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#totalPotLabel, #playersLabel {
+    color: #2848c0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding-left: 2em;
+}
+
+.opt-value {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#totalPotInput, #players {
+    box-sizing: border-box;
+    border-color: #f515b8;
+
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #2848c0;
+    border-style: solid;
+    border-collapse: collapse;
+    outline: none;
+}
+
+#totalPotInput:focus, #players:focus {
+    border-color: #2848c0;
+    border-style: solid;
+}
+
+.col-left {
+    background-color: white;
+    height: 6em;
+    width: 6em;
+}
+
+.col-right {
+    background-color: white;
+    height: 6em;
+    width: 6em;
+}
+
+td {
+    border-collapse: collapse;
+    border-width: 1rem;
+    border-color: #fff2f8;
+    height: 108%;
+    width: 105%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 115%;
+    color: white;
+    background-color: #f515b8;
+    overflow: hidden;
+}
+
+table, tr {
+    border-collapse: collapse;
+    border-width: 1rem;
+    border-color: #fff2f8;
+    height: 108%;
+    width: 105%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 115%;
+    color: white;
+}
+
+.flip_V{
+    transform: scale(1, -1);
+    font-size: 200%;
+}
