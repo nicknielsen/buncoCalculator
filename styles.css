@@ -12,7 +12,7 @@ h1 {
     font-style: normal;
     font-variant: normal;
     font-size: 400%;
-    color: rgba(255, 99, 64, 1);
+    color: #ff6340
 }
 
 h2 {
@@ -56,54 +56,45 @@ p {
     border-style: solid;
 }
 
-.col-left {
+.td-right {
+    border: solid 3px #f515b8;
+    color: #f515b8;
     background-color: white;
-    height: 6em;
-    width: 6em;
-}
-
-.col-right {
-    background-color: white;
-    height: 6em;
-    width: 6em;
-}
-
-td {
-    border-collapse: collapse;
-    border-width: 1rem;
-    border-color: #fff2f8;
-    height: 108%;
-    width: 105%;
-    text-align: center;
-    justify-content: center;
-    padding: 10px 20px 10px 20px;
-    margin: 0;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 115%;
-    color: white;
-    background-color: #f515b8;
     overflow: hidden;
 }
 
-table, tr {
-    border-collapse: collapse;
-    border-width: 1rem;
-    border-color: #fff2f8;
-    height: 108%;
-    width: 105%;
-    text-align: center;
-    justify-content: center;
-    padding: 10px 20px 10px 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 115%;
+.td-left {
+    border: solid 3px #f515b8;
+    background-color: #f515b8;
     color: white;
+
 }
 
-.flip_V{
+table {
+    border-collapse: separate;
+    border-spacing: 1rem;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#flip_V {
     transform: scale(1, -1);
     font-size: 200%;
+}
+
+#btn-back-to-home {
+    background-color: #2848c0;
+    border: solid 3px #f515b8;
+    color: white;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#btn-back-to-home:hover {
+    background-color: #ff6340;
+    border: solid 3px #2848c0;
+    color: white;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
