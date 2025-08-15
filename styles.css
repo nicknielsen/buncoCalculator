@@ -43,7 +43,7 @@ p {
 #totalPotInput, #players {
     box-sizing: border-box;
     border-color: #f515b8;
-
+    width: 70%;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     color: #2848c0;
     border-style: solid;
@@ -85,7 +85,7 @@ table {
 
 #btn-back-to-home {
     background-color: #2848c0;
-    border: solid 3px #f515b8;
+    border: solid 1px #2848c0;
     color: white;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -93,7 +93,7 @@ table {
 
 #btn-back-to-home:hover {
     background-color: #ff6340;
-    border: solid 3px #2848c0;
+    border: solid 1px #ff6340;
     color: white;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: bold;

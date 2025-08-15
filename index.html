@@ -18,18 +18,19 @@
         <div class="row mt-5 mb-4">
             <h1>Bunco Prize Calculator</h1>
         </div>
-        <div class="row">
-            <div class="col-sm form-floating mb-2 text-center">
-                <input id="players" class="form-control" placeholder="" type="number" pattern="[0-9]*"
+        <div class="row form-group mb-4 text-start">
+            <label id="playersLabel" for="playerSelect" class="col-8 col-form-label">Number of non-ghost
+                players</label>
+            <div class="col-4">
+                <input id="players" class="form-control" placeholder="#" type="number" pattern="[0-9]*"
                     inputmode="numeric" name="playerSelect">
-                <label id="playersLabel" for="playerSelect">Number of non-ghost players</label>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm form-floating text-center">
-                <input id="totalPotInput" class="form-control" placeholder="" name="totalPot" type="number"
+        <div class="row form-group mb-2 text-start">
+            <label id="totalPotLabel" for="totalPot" class="col-8 col-form-label">Amount each player put&nbsp;in</label>
+            <div class="col-4">
+                <input id="totalPotInput" class="form-control" placeholder="$" name="totalPot" type="number"
                     pattern="[0-9]*" inputmode="numeric">
-                <label id="totalPotLabel" for="totalPot">How much did each player put in?</label>
             </div>
         </div>
         <div class="row mt-5 text-center">
@@ -64,7 +65,8 @@
             </table>
         </div>
         <div class="row justify-content-center mt-3 mx-5">
-            <a id="btn-back-to-home" class="btn btn-primary" href="https://www.buncobabz.com/" role="button">&larr; Back to Home</a>
+            <a id="btn-back-to-home" class="btn btn-primary" href="https://www.buncobabz.com/" role="button">&larr; Back
+                to Home</a>
         </div>
     </div>
     <script src="script.js"></script>
